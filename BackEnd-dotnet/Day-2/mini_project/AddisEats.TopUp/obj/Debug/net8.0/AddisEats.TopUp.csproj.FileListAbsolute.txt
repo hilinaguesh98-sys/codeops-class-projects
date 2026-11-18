@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\bin\Debug\net8.0\AddisEats.TopUp.exe
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\bin\Debug\net8.0\AddisEats.TopUp.deps.json
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\bin\Debug\net8.0\AddisEats.TopUp.runtimeconfig.json
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\bin\Debug\net8.0\AddisEats.TopUp.dll
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\bin\Debug\net8.0\AddisEats.TopUp.pdb
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\obj\Debug\net8.0\AddisEats.TopUp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\obj\Debug\net8.0\AddisEats.TopUp.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\obj\Debug\net8.0\AddisEats.TopUp.AssemblyInfo.cs
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\obj\Debug\net8.0\AddisEats.TopUp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\obj\Debug\net8.0\AddisEats.TopUp.sourcelink.json
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\obj\Debug\net8.0\AddisEats.TopUp.dll
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\obj\Debug\net8.0\refint\AddisEats.TopUp.dll
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\obj\Debug\net8.0\AddisEats.TopUp.pdb
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\obj\Debug\net8.0\AddisEats.TopUp.genruntimeconfig.cache
+C:\Users\User\Desktop\IBT\BackEnd-dotnet\Day-2\mini_project\AddisEats.Topup\obj\Debug\net8.0\ref\AddisEats.TopUp.dll
