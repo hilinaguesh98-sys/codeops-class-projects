@@ -15,3 +15,7 @@ Two consecutive GET requests to `/api/v1/health` returned:
 | Singleton | `19:07:51.8593401Z`, `19:07:51.8593401Z` | `19:07:51.8593401Z`, `19:07:51.8593401Z` |
 
 Transient creates a new clock for every resolution, so the two injected values differed within each request and across requests; scoped reuses one clock instance within a request, so the pair matched but changed on the next request. Singleton reuses one clock instance for the application lifetime, so its value remained unchanged across both requests.
+
+## Exercise 5: payment provider switch
+
+The application now registers `CbeBirrProvider` instead of `TeleBirrProvider`; `GET /api/v1/payments/provider` returned `{"provider":"CBE Birr"}`. The switch changed one DI registration line, and no controller changed.
