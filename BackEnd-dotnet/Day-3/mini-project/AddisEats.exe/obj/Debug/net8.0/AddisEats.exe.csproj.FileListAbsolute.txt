@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\bin\Debug\net8.0\AddisEats.exe.exe
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\bin\Debug\net8.0\AddisEats.exe.deps.json
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\bin\Debug\net8.0\AddisEats.exe.runtimeconfig.json
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\bin\Debug\net8.0\AddisEats.exe.dll
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\bin\Debug\net8.0\AddisEats.exe.pdb
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\obj\Debug\net8.0\AddisEats.exe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\obj\Debug\net8.0\AddisEats.exe.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\obj\Debug\net8.0\AddisEats.exe.AssemblyInfo.cs
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\obj\Debug\net8.0\AddisEats.exe.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\obj\Debug\net8.0\AddisEats.exe.sourcelink.json
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\obj\Debug\net8.0\AddisEats.exe.dll
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\obj\Debug\net8.0\refint\AddisEats.exe.dll
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\obj\Debug\net8.0\AddisEats.exe.pdb
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\obj\Debug\net8.0\AddisEats.exe.genruntimeconfig.cache
+C:\Users\User\Desktop\IBT_project\BackEnd-dotnet\Day-3\Exercises\AddisEats.exe\obj\Debug\net8.0\ref\AddisEats.exe.dll
