@@ -1,6 +1,6 @@
 @AddisEats.Api_HostAddress = http://localhost:5119
 
-GET {{AddisEats.Api_HostAddress}}/weatherforecast/
+GET {{AddisEats.Api_HostAddress}}/api/v1/health
 Accept: application/json
 
 ###
