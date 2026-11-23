@@ -4,3 +4,19 @@ GET {{AddisEats.Api_HostAddress}}/api/v1/health
 Accept: application/json
 
 ###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/payments/provider
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/delivery/options
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/protected
+X-Exercise-Auth: enabled
+Accept: application/json
+
+###

@@ -19,3 +19,21 @@ Transient creates a new clock for every resolution, so the two injected values d
 ## Exercise 5: payment provider switch
 
 The application now registers `CbeBirrProvider` instead of `TeleBirrProvider`; `GET /api/v1/payments/provider` returned `{"provider":"CBE Birr"}`. The switch changed one DI registration line, and no controller changed.
+
+## Exercise 6: delivery options
+
+`DeliveryOptions` is bound from the `Delivery` section in `appsettings.json`. `GET /api/v1/delivery/options` returns `freeAboveEtb: 500` and `defaultFeeEtb: 50`.
+
+## Exercise 7: missing registration
+
+Expected exception message when the `IPaymentProvider` scoped registration is removed (not runtime-captured):
+
+> Unable to resolve service for type 'AddisEats.Api.Services.IPaymentProvider' while attempting to activate 'AddisEats.Api.Controllers.PaymentProviderController'.
+
+The message says dependency injection could not resolve `IPaymentProvider` while constructing `PaymentProviderController`.
+
+## Exercise 8: authentication middleware order
+
+The protected endpoint is `GET /api/v1/protected` with `X-Exercise-Auth: enabled`. Expected observation if `UseAuthorization` precedes `UseAuthentication`: the request is unauthorized even with the header (not runtime-verified).
+
+Authentication must run first to populate `HttpContext.User` before authorization evaluates the protected endpoint.
