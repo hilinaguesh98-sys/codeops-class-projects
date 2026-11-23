@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using AddisEats.Api.Services;
 
 namespace AddisEats.Api.Controllers;
 
@@ -7,10 +8,12 @@ namespace AddisEats.Api.Controllers;
 public class HealthController : ControllerBase
 {
     private readonly IHostEnvironment _environment;
+    private readonly IClock _clock;
 
-    public HealthController(IHostEnvironment environment)
+    public HealthController(IHostEnvironment environment, IClock clock)
     {
         _environment = environment;
+        _clock = clock;
     }
 
     [HttpGet]
@@ -18,7 +21,7 @@ public class HealthController : ControllerBase
     {
         return Ok(new
         {
-            utcTime = DateTime.UtcNow,
+            utcTime = _clock.UtcNow,
             environment = _environment.EnvironmentName
         });
     }
