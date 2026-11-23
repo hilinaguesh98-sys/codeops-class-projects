@@ -2,5 +2,10 @@ namespace AddisEats.Api.Services;
 
 public class SystemClock : IClock
 {
-    public DateTime UtcNow => DateTime.UtcNow;
+    public SystemClock()
+    {
+        UtcNow = DateTime.UtcNow;
+    }
+
+    public DateTime UtcNow { get; }
 }
