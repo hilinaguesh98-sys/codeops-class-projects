@@ -1,0 +1,90 @@
+@AddisEats.Api_HostAddress = http://localhost:5106
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?page=1&limit=5
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?page=2&limit=5
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants/1
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants/12/menu-items
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants/999/menu-items
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?areas=Bole&areas=Piassa
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?maxFeeEtb=30
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants/abc
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/orders/1
+Accept: application/json
+
+###
+
+POST {{AddisEats.Api_HostAddress}}/api/v1/orders
+Content-Type: application/json
+
+{
+  "restaurantId": 1,
+  "totalEtb": 70
+}
+
+###
+
+PATCH {{AddisEats.Api_HostAddress}}/api/v1/orders/1
+Content-Type: application/json
+
+{
+  "status": "Accepted"
+}
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/admin
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/admin
+X-Admin-Key: admin-secret
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants/1
+X-Correlation-Id: corridor-test-123
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?limit=101
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?unknown=value
+Accept: application/json
