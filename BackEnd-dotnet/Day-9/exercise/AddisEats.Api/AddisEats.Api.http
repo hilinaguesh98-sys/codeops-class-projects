@@ -1,0 +1,89 @@
+@AddisEats.Api_HostAddress = http://localhost:5132
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?areas=Bole&areas=Piassa
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants/abc
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants/1
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/orders/1
+Accept: application/json
+
+###
+
+POST {{AddisEats.Api_HostAddress}}/api/v1/orders
+Content-Type: application/json
+
+{
+  "restaurantId": 1,
+  "totalEtb": 70
+}
+
+###
+
+PATCH {{AddisEats.Api_HostAddress}}/api/v1/orders/1
+Content-Type: application/json
+
+{
+  "status": "Accepted"
+}
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?unknown=value
+Accept: application/json
+
+###
+
+POST {{AddisEats.Api_HostAddress}}/api/v1/orders
+Content-Type: application/json
+
+{
+  "restaurantId": 1,
+  "customerName": "A",
+  "customerPhone": "0912345678",
+  "deliveryAddress": "Bole",
+  "items": [
+    {
+      "menuItemId": 1,
+      "quantity": 1
+    }
+  ]
+}
+
+###
+
+POST {{AddisEats.Api_HostAddress}}/api/v1/orders
+Content-Type: application/json
+
+{
+  "restaurantId": 1,
+  "customerName": "Abebe",
+  "customerPhone": "0912345678",
+  "deliveryAddress": "Bole Road",
+  "items": [
+    {
+      "menuItemId": 3,
+      "quantity": 1
+    }
+  ]
+}
+
+###
+
+POST {{AddisEats.Api_HostAddress}}/api/v1/failures/exception
+Accept: application/json
