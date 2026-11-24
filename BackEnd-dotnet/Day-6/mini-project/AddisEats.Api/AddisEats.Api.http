@@ -1,0 +1,63 @@
+@AddisEats.Api_HostAddress = http://localhost:5106
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?page=1&limit=5
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?page=2&limit=5
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants/1
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants/12/menu
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants/999/menu
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?areas=Bole&areas=Piassa
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?maxFeeEtb=30
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants/abc
+Accept: application/json
+
+###
+
+GET {{AddisEats.Api_HostAddress}}/api/v1/orders/1
+Accept: application/json
+
+###
+
+POST {{AddisEats.Api_HostAddress}}/api/v1/orders
+Content-Type: application/json
+
+{
+  "restaurantId": 1,
+  "totalEtb": 70
+}
+
+###
+
+PATCH {{AddisEats.Api_HostAddress}}/api/v1/orders/1/status
+Content-Type: application/json
+
+{
+  "status": "Accepted"
+}
