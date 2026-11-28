@@ -1,0 +1,28 @@
+@AddisEats.Api_HostAddress = http://localhost:5047
+
+GET {{AddisEats.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+@baseUrl = http://localhost:5047
+
+### Get the five-day weather forecast
+GET {{baseUrl}}/WeatherForecast
+
+### Create an order with the Day 59 correlation ID
+POST {{baseUrl}}/api/v1/orders
+Content-Type: application/json
+X-Correlation-Id: Day59-correlation-id
+
+{
+  "restaurantId": 1,
+  "items": [
+    {
+      "menuItemId": 1,
+      "quantity": 2
+    }
+  ]
+}
+
+### Get the created order
+GET {{baseUrl}}/api/v1/orders/1
