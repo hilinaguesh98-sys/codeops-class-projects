@@ -88,6 +88,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "AddisEats.OrderBook/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AddisEats.OrderBook.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AddisEats.OrderBook.dll": {}
+        }
       }
     }
   },
@@ -439,10 +449,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "AddisEats.OrderBook/1.0.0": {
+      "type": "project",
+      "path": "../../../Day-4/exercise/mimiproject/AddisEats.OrderBook/AddisEats.OrderBook.csproj",
+      "msbuildProject": "../../../Day-4/exercise/mimiproject/AddisEats.OrderBook/AddisEats.OrderBook.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AddisEats.OrderBook >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -452,11 +468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\IBT_project\\BackEnd-dotnet\\Day-4\\exercise\\mimiproject\\AddisEats.Api\\AddisEats.Api.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\IBT_project\\BackEnd-dotnet\\Day-5\\mini-project\\AddisEats.Api\\AddisEats.Api.csproj",
       "projectName": "AddisEats.Api",
-      "projectPath": "C:\\Users\\User\\Desktop\\IBT_project\\BackEnd-dotnet\\Day-4\\exercise\\mimiproject\\AddisEats.Api\\AddisEats.Api.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\IBT_project\\BackEnd-dotnet\\Day-5\\mini-project\\AddisEats.Api\\AddisEats.Api.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\IBT_project\\BackEnd-dotnet\\Day-4\\exercise\\mimiproject\\AddisEats.Api\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\IBT_project\\BackEnd-dotnet\\Day-5\\mini-project\\AddisEats.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -470,7 +486,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Desktop\\IBT_project\\BackEnd-dotnet\\Day-4\\exercise\\mimiproject\\AddisEats.OrderBook\\AddisEats.OrderBook.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\IBT_project\\BackEnd-dotnet\\Day-4\\exercise\\mimiproject\\AddisEats.OrderBook\\AddisEats.OrderBook.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

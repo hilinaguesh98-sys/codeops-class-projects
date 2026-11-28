@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AddisEats.exe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a951f6ffee5b7c95a1bfefdd014f5e9802f19d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2aa52d2140872331285218eef8fb9b52a85fa0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AddisEats.exe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AddisEats.exe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddSingleton<MenuStore>();
 builder.Services.AddScoped<IMenuService, MenuService>();
+builder.Services.AddScoped<IRestaurantService, RestaurantService>();
 builder.Services.Configure<MenuOptions>(builder.Configuration.GetSection("Menu"));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

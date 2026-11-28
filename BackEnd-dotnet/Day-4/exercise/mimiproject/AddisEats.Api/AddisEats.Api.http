@@ -1,43 +1,19 @@
 @AddisEats.Api_HostAddress = http://localhost:5106
 
-GET {{AddisEats.Api_HostAddress}}/api/v1/menu
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?page=1&limit=5
 Accept: application/json
 
 ###
 
-GET {{AddisEats.Api_HostAddress}}/api/v1/menu?category=Stew
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants?page=2&limit=5
 Accept: application/json
 
 ###
 
-GET {{AddisEats.Api_HostAddress}}/api/v1/menu?page=2
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants/12/menu
 Accept: application/json
 
 ###
 
-GET {{AddisEats.Api_HostAddress}}/api/v1/menu/999
+GET {{AddisEats.Api_HostAddress}}/api/v1/restaurants/999/menu
 Accept: application/json
-
-###
-
-POST {{AddisEats.Api_HostAddress}}/api/v1/menu
-Content-Type: application/json
-
-{
-  "id": 7,
-  "name": "Kitfo Special",
-  "category": "Main",
-  "price": 285.00
-}
-
-###
-
-POST {{AddisEats.Api_HostAddress}}/api/v1/menu
-Content-Type: application/json
-
-{
-  "id": 8,
-  "name": "Invalid Price",
-  "category": "Test",
-  "price": 0
-}

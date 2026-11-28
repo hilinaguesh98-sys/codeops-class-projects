@@ -42,3 +42,11 @@ Example request body for POST:
 ```
 
 In Swagger, use **Try it out** on the POST endpoint to create an item. Set `price` to `0` to see the `400` response, and request a missing ID such as `/api/v1/menu/999` to see `404`.
+
+## Restaurants API
+
+`GET /api/v1/restaurants?area=Bole&page=1&limit=5` searches the seeded restaurants. The default limit comes from `Menu:DefaultPageSize`. Restaurant responses use `RestaurantDto`, which includes neither `OwnerPhone` nor `CommissionRate`.
+
+`GET /api/v1/restaurants/{id}/menu` returns `404` when the restaurant ID is missing, but returns `200 OK` with `[]` when the restaurant exists and has no menu items: one is a missing resource, while the other is an empty collection on an existing resource.
+
+The sample data has 12 restaurants across Bole (5), Kazanchis (3), Piassa (2), and Megenagna (2), with delivery fees represented as decimal ETB values.
